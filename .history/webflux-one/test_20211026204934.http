@@ -1,0 +1,14 @@
+@baseUrl http://localhost:8080
+
+###
+
+GET {{baseUrl}}/messages
+
+###
+
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+    "Name": "Mahendra"
+}
